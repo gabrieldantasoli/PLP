@@ -1,0 +1,12 @@
+// trabalhando com listas e matrizes
+++ concatena elementos (mesmo tipo) - itera o primeiro e adiciona o segundo
+: concatena o primeiro no inicio do segundo
+!! acessa elementos de listas e matrizes
+-----------------------------------------------------------
+
+// metodos das listas 
+>>  head , tail , last , init 
+>>  length , null , reverse
+>>  take , drop 
+>>  maximum , minimum , sum , product , elem
+-----------------------------------------------------------

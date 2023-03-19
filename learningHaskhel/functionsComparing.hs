@@ -1,5 +1,7 @@
 doubleMe x = x * 2
 
+-- (comentário de linha única) No haskhel , é obrigatório o uso do else . Exemplo : if x == 10 then x else 2*x
+
 doubleSmallestThen100 x = if x < 100 then doubleMe x else x;
 
 didIPassed x = if x >= 7 then "YES" else if x < 4 then "NOT" else "FINAL"
