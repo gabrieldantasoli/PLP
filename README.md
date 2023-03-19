@@ -4,11 +4,11 @@
 
 <h2>Haskhel na prática</h2>
 <ul>
-    <li></li>
-    <li>.</li>
-    <li>.</li>
-    <li>.</li>
-    <li>.</li>
-    <li>.</li>
+    <li><a href="https://github.com/gabrieldantasoli/PLP/blob/master/learningHaskhel/resumo.txt">Resumo</a></li>
+    <li><a href="https://github.com/gabrieldantasoli/PLP/blob/master/learningHaskhel/functions.hs">Primeiras funções</a></li>
+    <li><a href="https://github.com/gabrieldantasoli/PLP/blob/master/learningHaskhel/functionsComparing.hs">Comparações (if else)</a></li>
+    <li><a href="https://github.com/gabrieldantasoli/PLP/blob/master/learningHaskhel/listas.hs">Listas e Matrizes</a></li>
+    <li><a href=""></a></li>
+    <li><a href=""></a></li>
 </ul>
 

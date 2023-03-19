@@ -10,3 +10,7 @@
 >>  take , drop 
 >>  maximum , minimum , sum , product , elem
 -----------------------------------------------------------
+
+// Texas Range
+ACESSE O ARQUIVO texasRange.hs 
+-----------------------------------------------------------
