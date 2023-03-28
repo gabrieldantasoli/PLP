@@ -42,3 +42,11 @@ get' n (x:xs)
 reverse' :: [a] -> [a]
 reverse' [] = []
 reverse' (x:xs) = reverse' xs ++ [x]
+
+
+bubblesort :: (Ord a) => [a] -> [a]  
+bubblesort [] = []  
+bubblesort (x:xs) = 
+    let smallerSorted = quicksort [a | a <- xs, a <= x]  
+        biggerSorted = quicksort [a | a <- xs, a > x]  
+    in  smallerSorted ++ [x] ++ biggerSorted  
