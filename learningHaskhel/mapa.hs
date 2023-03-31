@@ -31,3 +31,11 @@ quickSort (x:xs) =
     quickSort [2,5,8,3,6,2,9,10]
 -}
 
+
+largestDivisible :: (Integral a) => a
+largestDivisible = head (filter' p [100000,99999..])
+    where p x = x `mod` 3892 == 0
+
+
+
+getOddQuadraticSmallestThen10000 = takeWhile (<10000) (filter odd (map (^2) [1..]))
