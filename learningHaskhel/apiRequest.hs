@@ -9,7 +9,7 @@ import qualified Data.ByteString.Lazy.Char8 as L8
 -- Retorna um cursor que pode ser usado para acessar os elementos do XML
 getIMDBCursor :: String -> IO Cursor
 getIMDBCursor imdbId = do
-  let url = "http://www.omdbapi.com/?i=" ++ imdbId ++ "&plot=xml&apikey=<sua chave de API aqui>"
+  let url = "http://www.imdbapi.com/?i=" ++ imdbId ++ "&plot=xml&apikey=<sua chave de API aqui>"
   response <- simpleHttp url
   let doc = parseLBS def response
   return $ fromDocument doc
